@@ -13,19 +13,19 @@
 - (Windows) 安装路径示例 `C:/Program Files/Coppeliasim/Coppeliasim_PRO_EDU/`
 
   ```bash
-  $ set PATH=%PATH%;C:/Program Files/Coppeliasim/Coppeliasim_PRO_EDU/
+  set PATH=%PATH%;C:/Program Files/Coppeliasim/Coppeliasim_PRO_EDU/
   ```
 
 - (Mac OS X) 安装路径示例 `/Users/USERNAME/Coppeliasim_PRO_EDU/Coppeliasim.app/Contents/MacOS/`
 
   ```bash
-  $ export PATH=$PATH:"/Users/USERNAME/Coppeliasim_PRO_EDU/vrep.app/Contents/MacOS/"
+  export PATH=$PATH:"/Users/USERNAME/Coppeliasim_PRO_EDU/vrep.app/Contents/MacOS/"
   ```
 
 - (Linux) 安装路径示例 `/home/USERNAME/tools/Coppeliasim_PRO_EDU_V3_4_0_Linux`
 
   ```bash
-  $ export PATH="/home/USERNAME/tools/Coppeliasim_PRO_EDU_V3_4_0_Linux":$PATH
+  export PATH="/home/USERNAME/tools/Coppeliasim_PRO_EDU_V3_4_0_Linux":$PATH
   ```
 
 然后执行:
@@ -40,7 +40,7 @@ pip install -e . #(install the Simer package in edit mode)
 python3 simpleTest.py #(run the example)
 ```
 
-最后一个命令将以无 GUI 模式启动 Coppeliasim，并逐步运行简单的模拟。然后它将自行关闭并退出。
+最后一个命令将以无 GUI 模式启动 Coppeliasim，并逐步运行简单的模拟,然后它将自行关闭并退出。
 
 
 ## 致谢
