@@ -41,3 +41,7 @@ python3 simpleTest.py #(run the example)
 ```
 
 最后一个命令将以无 GUI 模式启动 Coppeliasim，并逐步运行简单的模拟。然后它将自行关闭并退出。
+
+
+## 致谢
+【VREP和python联合仿真原创教程v-rep（图像识别跟踪）】 https://www.bilibili.com/video/BV1z7411X7aK/?share_source=copy_web&vd_source=7117d3ef068e0718b16e03f22d9b9ae3
